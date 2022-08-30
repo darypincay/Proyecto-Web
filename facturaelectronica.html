@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <Title>HOME | La Casa de Argos</Title>
+    <link rel = "stylesheet" type = "text/css" href="estilo.css">
+</head>
+<body>
+    <section id= "encabezado">
+        <h1>La Casa de Argos</h1>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="base.html">Inicio</a></li>
+            <li><a href="facturaelectronica.html">Factura Electronica</a></li>
+            <li><a href="mision.html">Misión</a></li>
+            <li><a href="locales.html">Locales</a></li>
+            <li><a href="equipo.html">Nuestro equipo</a></li>
+        </ul>
+    </nav>
+    <div class = "menufactura">
+        <script class = "funcion_factura">
+        function calcular() {
+            if(confirm("Presione Aceptar para iniciar la emisión de su factura")) {
+                cedula = document.getElementById("cedula").value;
+                contrasena = document.getElementById("contrasena").value;
+                alert("Se ha descargado su factura con exito");
+            }
+        }
+        </script>
+        <style>
+            body{
+                background-image: url(imagenes/granoscafefondo.jpg);
+                background-repeat: no-repeat;
+                background-size: 1325px;
+                box-sizing: border-box;
+            }
+
+            form{
+                border-radius: 5px;
+                background-color: white;
+                font-family: Arial;
+                padding: 12px;
+                margin: 0 auto;
+                width: 300px;
+                margin-top: 60px;
+            }
+
+            input, textarea {
+                border: 0;
+                width: 300px;
+            }
+
+            .campo {
+                border: solid 1px #999;
+                padding: 8px;
+                width: 280px;
+            }
+
+            .campo:focus {
+                border-color: yellow;
+            }
+        </style>
+        <body>
+            <form action = "panelcontrol">
+                <p>Ingrese RUC/Cédula:</p> <br>
+                <input type = "text" class = "campo" id = "cedula" /> <br>
+                <br>
+                <p>Ingrese contraseña: </p><br>
+                <input type = "text" class = "campo" id = "contrasena" /> <br>
+                <br>
+                <p>
+                <input type = "button" class = "btn btn-yellow" value = "Emitir factura" onclick="calcular()">
+                </p>
+            </form>
+        </body>
+    </div>
+    <footer id="contacto">
+        <div class = "seccion_footer">
+            <div class = "contactanos">
+                <h2>Dary Pincay | La Casa de Argos | DesignWeb</h2>
+                <p>Una cafeteria como ninguna otra</p>
+            </div>
+            <div class = "redessociales">
+                <a href="https://es-la.facebook.com" class="redessociales_icon"><i class='bx bxl-facebook bx-md'></i></a>
+                <a href="https://www.instagram.com" class="redessociales_icon"><i class='bx bxl-instagram bx-md'></i></a>
+                <a href="https://www.pinterest.com" class="redessociales_icon"><i class='bx bxl-pinterest bx-md'></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

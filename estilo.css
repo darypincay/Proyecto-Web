@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color:#ebd72a;
+    color: rgba(71, 2, 11, 0.87);
+    background-size: 50%;
+    padding: 20px;
+}
+#encabezado {
+    font-size: 80px;
+    font-family: cursive;
+}
+nav ul {
+    background-color: #f56032;
+    width: 100%;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgba(71, 2, 11, 0.87);
+    font-family: Arial;
+    padding: 30px;
+    width: 200 px;
+}
+
+nav li:hover {
+    background-color: rgb(209, 117, 84);
+}
+
+.menuprincipal img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menuprincipal h2 {
+    font-size: 50px;
+    font-family: Georgia;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menuprincipal p {
+    font-size: 30px;
+    font-family: Tahoma;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.seccion_1 nav ul {
+    background-color: #ebd72a;
+    width: 100%;
+    list-style-type: none;
+}
+
+.seccion_1 nav a {
+    padding: 29.2px;
+}
+
+.seccion_1 h1 {
+    background-image: none;
+    background-color: coral;
+}
+
+.seccion_1 img:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #f4f742;
+    -webkit-box-shadow: 0px 0px 15px 15px #f4f742;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.seccion_2 p {
+    background: linear-gradient(yellow,blue,red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    font-family: fantasy;
+}
+
+.seccion_2_frase p {
+    color: gray;
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.seccion_3 p {
+    font-size: 30px;
+    font-family: Tahoma;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.seccion_3 {
+    background-color: #ebd72a;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.seccion_3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    padding-bottom: 0.1px;
+}
+
+.seccion_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-top: 300px;
+}
+
+.contactanos {
+    width: 40%;
+    color: white;
+}
+
+.contactanos p {
+    font-weight: 200px;
+    font-family: cursive;
+}
+
+.redessociales {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redessociales_icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.redessociales_icon:hover {
+    background: white;
+    color: darkgoldenrod;
+}
+
+.redessociales_icon i {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.btn-yellow {
+    color: black;
+    background-color: #e8f800;
+}
+
+.btn-yellow:hover {
+    background-color: #e7f069;
+}
+
+.btn-yellow:active {
+    background-color: yellow;
+}
+
+.seccion_1_mision {
+    background-color: white;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.seccion_1_mision p {
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.seccion_1_mision img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 60px;
+        margin-left: 30px;
+    }
+
+.seccion_1_local p {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 40px;
+}
+
+.ubicacionlocales_guayaquil {
+    background-color:#ebd72a;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    padding: 0 auto;
+    color:white;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+.ubicacionlocales_guayaquil p {
+    font-family: Arial;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.ubicacionlocales_guayaquil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.ubicacionlocales_guayaquil ul {
+    margin-left: 400px;
+    font-size: 25px;
+}
+
+.ubicacionlocales_quito {
+    background-color:coral;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    padding: 0 auto;
+    color:white;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+.ubicacionlocales_quito p {
+    font-family: Arial;
+    font-size: 30px;
+    margin-right: 60px;
+    margin-left: 10px;
+}
+
+.ubicacionlocales_quito img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 300px;
+}
+
+.ubicacionlocales_quito ul {
+    margin-right: 320px;
+    font-size: 25px;
+}
+
